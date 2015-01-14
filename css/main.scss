@@ -1,0 +1,106 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    1024px;
+
+$on-palm:          600px;
+$on-laptop:        1024px;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+.site-wrapper {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 1024px;
+  clear: both;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+nav {
+  float: left;
+  width: auto;
+  width: 190px;
+  margin-right: 10px;
+}
+
+nav ul li {
+    list-style-type:none;
+    margin-bottom: 10px;
+}
+
+nav ul li a { 
+    padding: 10px;
+    border:1px solid #9999ff;
+    display:block;
+    font-weight:bold;
+    font-size:12px;
+    color:#ffffff;
+    text-decoration:none;
+    background-color:#9999ff;
+}
+nav ul li a:hover {
+    color:#9999ff;
+    background-color:#ffffff;
+}
+
+section {
+  float: left;
+  width: 764px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  clear: both;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 1024px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}

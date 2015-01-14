@@ -1,0 +1,11 @@
+# Site settings
+title: FJ パートナーシッププロジェクト
+email: fjpartner@example.com
+description: 「子どもが憧れる笑顔の夫婦になろう！」を合い言葉としたファザーリング・スクール受講生のパパ達を中心としたプロジェクト
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
