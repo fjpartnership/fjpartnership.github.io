@@ -1,7 +1,8 @@
 ---
 layout: default
+category: 1
 ---
 
-![](images/partner.jpg)
+![パートナーシップ](images/main_image.jpg)
 
 2014年9月「子どもが憧れる笑顔の夫婦になろう！」を合い言葉に、ファザーリング・スクール受講生のパパ達を中心にFJパートナーシップ・プロジェクトが立ち上がりました。

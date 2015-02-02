@@ -1,7 +1,7 @@
 ---
 layout: default
 title: アンケート
-permalink: /enquete/
+permalink: /projects/goods/
 ---
 
 パートナーシップについてのアンケートを実施しました。

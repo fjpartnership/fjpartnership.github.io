@@ -13,6 +13,9 @@ header {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+header img {
+  width: 1024px; }
+
 nav {
   float: left;
   width: auto;
